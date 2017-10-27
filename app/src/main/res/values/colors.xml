@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">#FF5050</color>
+    <color name="colorPrimaryDark">#FA3232</color>
+    <color name="colorAccent">#FF5050</color>
+
+    <color name="background">#f7f7f7</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="text_black3">#333333</color>
+    <color name="text_black6">#666666</color>
+    <color name="text_black9">#999999</color>
+
+    <color name="text_red">#FF5050</color>
+    <color name="red">#ff0000</color><!--红色 -->
+
+
+</resources>

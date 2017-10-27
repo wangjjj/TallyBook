@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">TallyBook</string>
+
+
+    <!-- main rb -->
+    <string name="first_title">明细</string>
+    <string name="second_title">记一笔</string>
+    <string name="third_title">类别报表</string>
+    <string name="four_title">账户</string>
+
+
+
+    <string name="tallychart1">{
+    "status": 1,
+    "total": 8882.4,
+    "surplus": "-1,590.60",
+    "scale": "-",
+    "t_money": [
+        {
+            "affect_money": 4616.86,
+            "type": 28,
+            "typename": "投标成功待收利息",
+            "back_color": "#6783fd"
+        },
+        {
+            "affect_money": 1481.89,
+            "type": "331",
+            "typename": "额外收益",
+            "back_color": "#8da3fd"
+        },
+        {
+            "affect_money": 830,
+            "type": "335",
+            "typename": "兼职",
+            "back_color": "#6884f9"
+        },
+        {
+            "affect_money": 800,
+            "type": "332",
+            "typename": "资金补偿",
+            "back_color": "#8096f5"
+        },
+        {
+            "affect_money": 600,
+            "type": "328",
+            "typename": "礼金",
+            "back_color": "#6e82db"
+        },
+        {
+            "affect_money": 553.65,
+            "type": "0",
+            "typename": "杂项",
+            "back_color": "#6783fd"
+        }
+    ]
+}</string>
+
+
+
+
+
+
+</resources>

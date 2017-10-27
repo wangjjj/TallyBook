@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#FF5050">
+
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:text="记账"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/right_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/tallybook_manager"/>
+    </RelativeLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/Container"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#c4c6c5"></View>
+
+
+
+    <com.cocoon.jay.tallybook.view.BaseBottomBar
+        android:id="@+id/main_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom"
+        android:background="#FFFFFF" >
+
+
+        <RelativeLayout
+            style="@style/tab_radiobutton_style"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:drawableTop="@drawable/rb_main_first_selector"
+                android:paddingBottom="3dp"
+                android:paddingTop="6dp"
+                android:textColor="@drawable/tabbar_text_color"
+                android:text="@string/first_title"
+                />
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            style="@style/tab_radiobutton_style"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:drawableTop="@drawable/rb_main_third_selector"
+                android:paddingBottom="3dp"
+                android:paddingTop="6dp"
+                android:textColor="@drawable/tabbar_text_color"
+                android:text="@string/third_title"
+                />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            style="@style/tab_radiobutton_style"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:drawableTop="@drawable/rb_main_four_selector"
+                android:paddingBottom="3dp"
+                android:paddingTop="6dp"
+                android:textColor="@drawable/tabbar_text_color"
+                android:text="@string/four_title" />
+
+
+        </RelativeLayout>
+
+
+
+    </com.cocoon.jay.tallybook.view.BaseBottomBar>
+
+</LinearLayout>
